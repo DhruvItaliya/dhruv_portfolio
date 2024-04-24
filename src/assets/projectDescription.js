@@ -11,7 +11,7 @@ export const project_data = [
         thumbnail: nutri_plan_pro,
         technology: ["ReactJs", "NodeJs", "ExpressJs", "MongoDB", "Python (Flask)", "TailwindCss"],
         duration: "Feb 2024 - Mar 2024",
-        github: "https://github.com/DhruvItaliya/hackathon",
+        github: "https://github.com/DhruvItaliya/NutriPlanPro",
         description: [
             "Created NutriPlanPro, a personalized diet recommendation web app, using MERN stack and Flask.",
             "Utilized KD Tree algorithm for efficient diet plan generation based on user data.",
@@ -43,7 +43,7 @@ export const project_data = [
         thumbnail: iKeep,
         technology: ["ReactJs", "NodeJs", "ExpressJs", "MongoDB", "Bootstrap5", "CSS"],
         duration: "Nov 2023 - Nov 2023",
-        github: "#",
+        github: "https://github.com/DhruvItaliya/iNoteBook",
         description: [
             "Developed a cloud-based notebook application with full CRUD functionality.",
             "Enables users to create, read, update, and delete notes from any device with internet access.",
