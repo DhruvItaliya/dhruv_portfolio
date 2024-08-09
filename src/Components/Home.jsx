@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { FiLinkedin, FiGithub } from "react-icons/fi";
 import { IoLogoInstagram } from "react-icons/io";
 import { FaTelegramPlane } from "react-icons/fa";
@@ -9,6 +9,9 @@ import { ModalContext } from '../Context/ModalContext';
 const Home = () => {
     const { toggle, setToggle } = useContext(ModalContext);
     const [projectId, setProjectId] = useState(0);
+    useEffect(() => {
+        console.log(projectId);
+    }, [projectId]);
     return (
         <>
             <div className='px-10'>
@@ -35,8 +38,8 @@ const Home = () => {
                             <div className='flex w-full p-2 h-auto text-sm bg-[#1b1c23] rounded-b-lg gap-2 flex-wrap'>
                                 <div className='bg-[#14131a] p-1 rounded-md text-gray-300 border border-green-300'>HTML</div>
                                 <div className='bg-[#14131a] p-1 rounded-md text-gray-300 border border-orange-300'>CSS</div>
-                                <div className='bg-[#14131a] p-1 rounded-md text-gray-300 border border-yellow-300'>Tailwind</div>
-                                <div className='bg-[#14131a] p-1 rounded-md text-gray-300 border border-red-300'>Javascript</div>
+                                <div className='bg-[#14131a] p-1 rounded-md text-gray-300 border border-yellow-300'>Javascript</div>
+                                <div className='bg-[#14131a] p-1 rounded-md text-gray-300 border border-red-300'>Tailwind</div>
                                 <div className='bg-[#14131a] p-1 rounded-md text-gray-300 border border-blue-300'>ReactJs</div>
                                 <div className='bg-[#14131a] p-1 rounded-md text-gray-300 border border-pink-300'>Bootstrap</div>
                             </div>

@@ -57,7 +57,7 @@ export const project_data = [
         ]
     },
     {
-        id: 4,
+        id: 3,
         title: "iNoteBook (Cloud Based)",
         thumbnail: iKeep,
         technology: ["ReactJs", "NodeJs", "ExpressJs", "MongoDB", "Bootstrap5", "CSS"],
@@ -72,7 +72,7 @@ export const project_data = [
         ]
     },
     {
-        id: 5,
+        id: 4,
         title: "News App",
         thumbnail: news_app,
         technology: ["ReactJs", "Bootstrap 5", "CSS", "API"],
@@ -85,7 +85,7 @@ export const project_data = [
         ]
     },
     {
-        id: 6,
+        id: 5,
         title: "Weather Tracker",
         thumbnail: weather_app,
         technology: ["NodeJs", "ExpressJs", "Handlebars", "CSS", "API"],
@@ -100,7 +100,7 @@ export const project_data = [
         ]
     },
     {
-        id: 7,
+        id: 6,
         title: "Best Eats",
         thumbnail: best_eats,
         technology: ["ReactJs", "TailwindCss"],
