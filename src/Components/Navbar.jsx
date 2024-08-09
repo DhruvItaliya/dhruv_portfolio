@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { GoHome } from "react-icons/go";
+import { MdOutlineEmail } from "react-icons/md";
+import { BsTelephone } from "react-icons/bs";
+import { IoLocationOutline } from "react-icons/io5";
 import { TbCircleFilled } from "react-icons/tb";
-import { RiFireLine } from "react-icons/ri";
-import { PiBracketsAngleBold } from "react-icons/pi";
 import { FiLinkedin, FiGithub } from "react-icons/fi";
 import { SiLeetcode } from "react-icons/si";
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
@@ -32,16 +32,16 @@ const Navbar = () => {
                     <nav>
                         <ul className='flex flex-col p-4 text-white'>
                             <li className='flex cursor-pointer text-lg py-4 pl-4 active:text-orange-400'  >
-                                <GoHome size={25} className='mr-3' />
-                                Home
+                                <MdOutlineEmail size={25} className='mr-3 text-red-300' />
+                                <a href="mailto:italiyadhruv09@gmail.com">italiyadhruv09@...</a>
                             </li>
                             <li className='flex cursor-pointer text-lg py-4 pl-4 active:text-orange-400'>
-                                <RiFireLine size={25} className='mr-3' />
-                                Trending
+                                <BsTelephone size={25} className='mr-3 text-blue-300' />
+                                <a href="tel:+919714189489">+91 9714189489</a>
                             </li>
                             <li className='flex cursor-pointer text-lg py-4 pl-4 active:text-orange-400'>
-                                <PiBracketsAngleBold size={25} className='mr-3' />
-                                Snippet
+                                <IoLocationOutline size={25} className='mr-3 text-green-300' />
+                                Surat, Gujarat
                             </li>
                             <p className='flex cursor-pointer text-lg mr-1 py-4'>Social</p>
                             <li className='flex cursor-pointer text-lg py-4 pl-4 active:text-orange-400'>
@@ -78,17 +78,18 @@ const Navbar = () => {
                 <div className='m-5 h-screen bg-[#1c1b23] rounded-xl'>
                     <nav>
                         <ul className='flex flex-col p-4 text-white'>
+                            <p className='flex cursor-pointer text-lg mr-1 py-4'>Contact</p>
                             <li className='flex cursor-pointer text-md py-4 pl-4 active:text-orange-400'  >
-                                <GoHome size={25} className='mr-3' />
-                                Home
+                                <MdOutlineEmail size={25} className='mr-3 text-red-300' />
+                                <a href="mailto:italiyadhruv09@gmail.com">italiyadhruv09@...</a>
                             </li>
                             <li className='flex cursor-pointer text-md py-4 pl-4 active:text-orange-400'>
-                                <RiFireLine size={25} className='mr-3' />
-                                Trending
+                                <BsTelephone size={25} className='mr-3 text-blue-300' />
+                                <a href="tel:+919714189489">+91 9714189489</a>
                             </li>
                             <li className='flex cursor-pointer text-md py-4 pl-4 active:text-orange-400'>
-                                <PiBracketsAngleBold size={25} className='mr-3' />
-                                Snippet
+                                <IoLocationOutline size={25} className='mr-3 text-green-300' />
+                                Surat, Gujarat
                             </li>
                             <p className='flex cursor-pointer text-lg mr-1 py-4'>Social</p>
                             <li className='flex cursor-pointer text-md py-4 pl-4 active:text-orange-400'>

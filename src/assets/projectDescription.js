@@ -1,5 +1,6 @@
 import nutri_plan_pro from './images/nutriplanpro1.png';
 import meal_mission from './images/meal-mission1.png'
+import prime_pizza from './images/prime-pizza1.png'
 import iKeep from './images/iKeep.png'
 import news_app from './images/news_wave.jpg'
 import weather_app from './images/weather1.jpg'
@@ -28,7 +29,7 @@ export const project_data = [
         duration: "Feb 2024 - Mar 2024",
         github: "https://github.com/DhruvItaliya/hackathon",
         description: [
-            "Meal Mission: A collaborative project developed by a team of 4 members, with over 50% of the work completed by me.",
+            "Meal Mission: A collaborative project developed by a team of 4 members, with about 30% of the work completed by me.",
             "The platform tackles food waste and supports communities in need through surplus food redistribution.",
             "Recognizes and incentivizes volunteer contributions to drive engagement and impact.",
             "Offers data-driven insights to monitor distribution efforts and optimize resource allocation.",
@@ -39,6 +40,24 @@ export const project_data = [
     },
     {
         id: 2,
+        title: "Prime Pizza",
+        thumbnail: prime_pizza,
+        technology: ["ReactJs", "NodeJs", "ExpressJs", "MongoDB", "TailwindCss"],
+        duration: "May 2024 - Jun 2024",
+        github: "https://github.com/DhruvItaliya/OIBSIP_Prime_Pizza",
+        description: [
+            "Easy and intuitive interface for ordering delicious pizzas",
+            "Customizable pizza options with various toppings and sizes",
+            "Order tracking and history for a seamless user experience",
+            "Secure payment gateway integration",
+            "Real-time Dashboard: Get insights on orders, sales",
+            "Order Management: Track, update, and manage orders efficiently",
+            "Menu Customization: Easily update menu items, prices, and descriptions",
+            "Inventory Alerts: Receive notifications for low-stock ingredients"
+        ]
+    },
+    {
+        id: 4,
         title: "iNoteBook (Cloud Based)",
         thumbnail: iKeep,
         technology: ["ReactJs", "NodeJs", "ExpressJs", "MongoDB", "Bootstrap5", "CSS"],
@@ -53,7 +72,7 @@ export const project_data = [
         ]
     },
     {
-        id: 3,
+        id: 5,
         title: "News App",
         thumbnail: news_app,
         technology: ["ReactJs", "Bootstrap 5", "CSS", "API"],
@@ -66,7 +85,7 @@ export const project_data = [
         ]
     },
     {
-        id: 4,
+        id: 6,
         title: "Weather Tracker",
         thumbnail: weather_app,
         technology: ["NodeJs", "ExpressJs", "Handlebars", "CSS", "API"],
@@ -81,7 +100,7 @@ export const project_data = [
         ]
     },
     {
-        id: 5,
+        id: 7,
         title: "Best Eats",
         thumbnail: best_eats,
         technology: ["ReactJs", "TailwindCss"],
